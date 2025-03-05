@@ -39,3 +39,16 @@ body {
     height: auto;
     margin-top: 120px;
 }
+
+.form {
+    text-align: center;
+    position: relative; /* 상대적 위치 지정 */
+}
+
+.form hr {
+    border: 1px solid #5E5D59;
+    position: relative; /* 기본 위치 */
+    top: 150px; /* 아래로 50px 이동 */
+    margin-top: 0; /* 기본 margin 제거 */
+    margin-bottom: 20px;
+}
