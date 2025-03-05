@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(to bottom, #F8F190, #CAF37E);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* 요소들을 세로 정렬 */
+    justify-content: center; /* 전체 중앙 정렬 */
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.Logo {
+    display: flex;
+    flex-direction: column; /* 내부 요소들을 세로 정렬 */
+    align-items: center; /* 가로 중앙 정렬 */
+}
+
+.Logo img {
+    width: 350px; /* 원하는 크기로 조정 */
+    height: auto; /* 비율 유지 */
+    margin-bottom: 100px; /* 박스와 간격 조정 */
+}
+
+.Box {
+    width: 1000px;
+    height: 200px;
+    background: linear-gradient(to bottom, #8CD970, #FFFFFF);
+    padding: 5px;
+    border: 1.4px solid black;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo-text{
+
+}
